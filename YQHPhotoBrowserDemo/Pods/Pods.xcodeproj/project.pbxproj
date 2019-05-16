@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19530CC595458A1BC44BD4A199A65E6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		25D8D2A73B62D698BC2E0E0A64E1B36C /* Pods-YQHPhotoBrowserDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D32B15DD26160B46F0B2141C8C953FB /* Pods-YQHPhotoBrowserDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2830CD95061DE6B720A6904F2129C14A /* Pods-YQHPhotoBrowserDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB02BA8DA93F4ED644E8EF740E0CF266 /* Pods-YQHPhotoBrowserDemoTests-dummy.m */; };
+		2CF118ADD29510C7F1211E18CC39AEDB /* Pods-YQHPhotoBrowserDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 340C5AC621553CB4901C16D17AAA1CFC /* Pods-YQHPhotoBrowserDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E065C666D263F77579514B955A1216D /* Pods-YQHPhotoBrowserDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EC9BE9DE3C005883863DEF6A9DAAFF2 /* Pods-YQHPhotoBrowserDemo-dummy.m */; };
+		A1614380213F9FDE55EA862F90897A53 /* Pods-YQHPhotoBrowserDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E92D827B2D606BFDF58F315AA70B8F2F /* Pods-YQHPhotoBrowserDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D865B951E424F3E36CCC8404CD005EFA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		DC54226B14AE6A93C7FCC924CB233527 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
+		EE789579B0C1778C82A61ECB4C2245AC /* Pods-YQHPhotoBrowserDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14CE22C9E80E23872DD621EB40BEB48 /* Pods-YQHPhotoBrowserDemoUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15F944C7482C94372F2C7943DED6DC75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62E4C615AAE9EA73FC6A7284283817C;
+			remoteInfo = "Pods-YQHPhotoBrowserDemo";
+		};
+		3BC928360793BBB7677A2E408093BAEA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B62E4C615AAE9EA73FC6A7284283817C;
+			remoteInfo = "Pods-YQHPhotoBrowserDemo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CEFB918320AB535AAA0D219818D6EC /* Pods_YQHPhotoBrowserDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQHPhotoBrowserDemoTests.framework; path = "Pods-YQHPhotoBrowserDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EC9BE9DE3C005883863DEF6A9DAAFF2 /* Pods-YQHPhotoBrowserDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQHPhotoBrowserDemo-dummy.m"; sourceTree = "<group>"; };
+		1109A680E4BC1D1CF18DD34A8BF26E08 /* Pods_YQHPhotoBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQHPhotoBrowserDemo.framework; path = "Pods-YQHPhotoBrowserDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		340C5AC621553CB4901C16D17AAA1CFC /* Pods-YQHPhotoBrowserDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQHPhotoBrowserDemo-umbrella.h"; sourceTree = "<group>"; };
+		347AFE5E5C50046F2C8D5EFE8EDE0505 /* Pods-YQHPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQHPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0B82CC1DB50552A8BA722E6831F798 /* Pods-YQHPhotoBrowserDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQHPhotoBrowserDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		449B50B1BC847C8AAD018DA19B84D588 /* Pods-YQHPhotoBrowserDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQHPhotoBrowserDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A4C9A982E7191692896825B72837BAC /* Pods-YQHPhotoBrowserDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQHPhotoBrowserDemoUITests-Info.plist"; sourceTree = "<group>"; };
+		55BC50A4219618C60A3817358465B61F /* Pods-YQHPhotoBrowserDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YQHPhotoBrowserDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		76E31520489F84B2DC09FE3E41ACF371 /* Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7CD985C41EB689168AB39647C0BFBB3D /* Pods-YQHPhotoBrowserDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQHPhotoBrowserDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E936C01FDE8709852C4EB2AFBC3DA7D /* Pods-YQHPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQHPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		84D8F5DE772F7112CD6091653D3C2398 /* Pods-YQHPhotoBrowserDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQHPhotoBrowserDemoUITests.modulemap"; sourceTree = "<group>"; };
+		9180350EA5FBBB24D9BC5B3A46916D2C /* Pods-YQHPhotoBrowserDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQHPhotoBrowserDemo.modulemap"; sourceTree = "<group>"; };
+		9D32B15DD26160B46F0B2141C8C953FB /* Pods-YQHPhotoBrowserDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQHPhotoBrowserDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE8F0E57BE5198694802C0635ACFC525 /* Pods-YQHPhotoBrowserDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQHPhotoBrowserDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AF078857F25B51CA2375C087513D0F6C /* Pods-YQHPhotoBrowserDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQHPhotoBrowserDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		BB02BA8DA93F4ED644E8EF740E0CF266 /* Pods-YQHPhotoBrowserDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQHPhotoBrowserDemoTests-dummy.m"; sourceTree = "<group>"; };
+		BFBA81C108A9412C949DE4CEAE6AB912 /* Pods-YQHPhotoBrowserDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQHPhotoBrowserDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C7C9CA0369562D7497DC0C1097FB16B5 /* Pods-YQHPhotoBrowserDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQHPhotoBrowserDemo-Info.plist"; sourceTree = "<group>"; };
+		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D0B90D6A969617B0B848C558FAE9A40A /* Pods-YQHPhotoBrowserDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQHPhotoBrowserDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E45C9796C90D1C0447333D9E658EB9BA /* Pods-YQHPhotoBrowserDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YQHPhotoBrowserDemoTests-Info.plist"; sourceTree = "<group>"; };
+		E92D827B2D606BFDF58F315AA70B8F2F /* Pods-YQHPhotoBrowserDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YQHPhotoBrowserDemoUITests-umbrella.h"; sourceTree = "<group>"; };
+		F14CE22C9E80E23872DD621EB40BEB48 /* Pods-YQHPhotoBrowserDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YQHPhotoBrowserDemoUITests-dummy.m"; sourceTree = "<group>"; };
+		F150866C5E915B9345CD1C6C3094A95B /* Pods-YQHPhotoBrowserDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YQHPhotoBrowserDemoTests.modulemap"; sourceTree = "<group>"; };
+		FA406A830BF1DE5F4648BFC09A4A95B9 /* Pods-YQHPhotoBrowserDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YQHPhotoBrowserDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		FF6386CAC8F8D6AFAAD169BBDBA82CCA /* Pods_YQHPhotoBrowserDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YQHPhotoBrowserDemoUITests.framework; path = "Pods-YQHPhotoBrowserDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		143F5DFBEE68AE71FF9F13CFFDB14119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19530CC595458A1BC44BD4A199A65E6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		19E87CB6691B3450D68BDDB045F4489D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D865B951E424F3E36CCC8404CD005EFA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E646DF537C291398F90F871F663A3BB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC54226B14AE6A93C7FCC924CB233527 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00116C3DC968A27BA2F34C76B5DDB785 /* Pods-YQHPhotoBrowserDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D8F5DE772F7112CD6091653D3C2398 /* Pods-YQHPhotoBrowserDemoUITests.modulemap */,
+				449B50B1BC847C8AAD018DA19B84D588 /* Pods-YQHPhotoBrowserDemoUITests-acknowledgements.markdown */,
+				7CD985C41EB689168AB39647C0BFBB3D /* Pods-YQHPhotoBrowserDemoUITests-acknowledgements.plist */,
+				F14CE22C9E80E23872DD621EB40BEB48 /* Pods-YQHPhotoBrowserDemoUITests-dummy.m */,
+				4A4C9A982E7191692896825B72837BAC /* Pods-YQHPhotoBrowserDemoUITests-Info.plist */,
+				E92D827B2D606BFDF58F315AA70B8F2F /* Pods-YQHPhotoBrowserDemoUITests-umbrella.h */,
+				76E31520489F84B2DC09FE3E41ACF371 /* Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig */,
+				FA406A830BF1DE5F4648BFC09A4A95B9 /* Pods-YQHPhotoBrowserDemoUITests.release.xcconfig */,
+			);
+			name = "Pods-YQHPhotoBrowserDemoUITests";
+			path = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests";
+			sourceTree = "<group>";
+		};
+		2A999E8F2EAD6D827100134113CEFEA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1109A680E4BC1D1CF18DD34A8BF26E08 /* Pods_YQHPhotoBrowserDemo.framework */,
+				05CEFB918320AB535AAA0D219818D6EC /* Pods_YQHPhotoBrowserDemoTests.framework */,
+				FF6386CAC8F8D6AFAAD169BBDBA82CCA /* Pods_YQHPhotoBrowserDemoUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B3B809759E145C52A01FC8D6DCC824B /* Pods-YQHPhotoBrowserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F150866C5E915B9345CD1C6C3094A95B /* Pods-YQHPhotoBrowserDemoTests.modulemap */,
+				3F0B82CC1DB50552A8BA722E6831F798 /* Pods-YQHPhotoBrowserDemoTests-acknowledgements.markdown */,
+				AF078857F25B51CA2375C087513D0F6C /* Pods-YQHPhotoBrowserDemoTests-acknowledgements.plist */,
+				BB02BA8DA93F4ED644E8EF740E0CF266 /* Pods-YQHPhotoBrowserDemoTests-dummy.m */,
+				E45C9796C90D1C0447333D9E658EB9BA /* Pods-YQHPhotoBrowserDemoTests-Info.plist */,
+				9D32B15DD26160B46F0B2141C8C953FB /* Pods-YQHPhotoBrowserDemoTests-umbrella.h */,
+				AE8F0E57BE5198694802C0635ACFC525 /* Pods-YQHPhotoBrowserDemoTests.debug.xcconfig */,
+				BFBA81C108A9412C949DE4CEAE6AB912 /* Pods-YQHPhotoBrowserDemoTests.release.xcconfig */,
+			);
+			name = "Pods-YQHPhotoBrowserDemoTests";
+			path = "Target Support Files/Pods-YQHPhotoBrowserDemoTests";
+			sourceTree = "<group>";
+		};
+		5E58E6AB9246AA95BE61F45E2D8B4B7C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B468D337A33E7BDB2B00E070C211A7B0 /* Pods-YQHPhotoBrowserDemo */,
+				2B3B809759E145C52A01FC8D6DCC824B /* Pods-YQHPhotoBrowserDemoTests */,
+				00116C3DC968A27BA2F34C76B5DDB785 /* Pods-YQHPhotoBrowserDemoUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		B468D337A33E7BDB2B00E070C211A7B0 /* Pods-YQHPhotoBrowserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				9180350EA5FBBB24D9BC5B3A46916D2C /* Pods-YQHPhotoBrowserDemo.modulemap */,
+				55BC50A4219618C60A3817358465B61F /* Pods-YQHPhotoBrowserDemo-acknowledgements.markdown */,
+				D0B90D6A969617B0B848C558FAE9A40A /* Pods-YQHPhotoBrowserDemo-acknowledgements.plist */,
+				0EC9BE9DE3C005883863DEF6A9DAAFF2 /* Pods-YQHPhotoBrowserDemo-dummy.m */,
+				C7C9CA0369562D7497DC0C1097FB16B5 /* Pods-YQHPhotoBrowserDemo-Info.plist */,
+				340C5AC621553CB4901C16D17AAA1CFC /* Pods-YQHPhotoBrowserDemo-umbrella.h */,
+				347AFE5E5C50046F2C8D5EFE8EDE0505 /* Pods-YQHPhotoBrowserDemo.debug.xcconfig */,
+				7E936C01FDE8709852C4EB2AFBC3DA7D /* Pods-YQHPhotoBrowserDemo.release.xcconfig */,
+			);
+			name = "Pods-YQHPhotoBrowserDemo";
+			path = "Target Support Files/Pods-YQHPhotoBrowserDemo";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				2A999E8F2EAD6D827100134113CEFEA6 /* Products */,
+				5E58E6AB9246AA95BE61F45E2D8B4B7C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D8860B6DFF5D780E37A16B91687E779 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CF118ADD29510C7F1211E18CC39AEDB /* Pods-YQHPhotoBrowserDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20489FD58E474FE2B50B1C4AAAF02E21 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25D8D2A73B62D698BC2E0E0A64E1B36C /* Pods-YQHPhotoBrowserDemoTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB74AAFC1872EC7D1B73D2E052295F70 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1614380213F9FDE55EA862F90897A53 /* Pods-YQHPhotoBrowserDemoUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		B62E4C615AAE9EA73FC6A7284283817C /* Pods-YQHPhotoBrowserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8AEEA369C90C5235F8CA6AB832FB40A2 /* Build configuration list for PBXNativeTarget "Pods-YQHPhotoBrowserDemo" */;
+			buildPhases = (
+				0D8860B6DFF5D780E37A16B91687E779 /* Headers */,
+				B2014A4A26F15F088CD2294C24C05423 /* Sources */,
+				19E87CB6691B3450D68BDDB045F4489D /* Frameworks */,
+				F4876024229A216E5C6F42A19097DEAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-YQHPhotoBrowserDemo";
+			productName = "Pods-YQHPhotoBrowserDemo";
+			productReference = 1109A680E4BC1D1CF18DD34A8BF26E08 /* Pods_YQHPhotoBrowserDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E95FAFCFCA33BAE0C03703DCC0F32AA5 /* Pods-YQHPhotoBrowserDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57E0607DECC3A1FADBA64E6EC9C19452 /* Build configuration list for PBXNativeTarget "Pods-YQHPhotoBrowserDemoUITests" */;
+			buildPhases = (
+				BB74AAFC1872EC7D1B73D2E052295F70 /* Headers */,
+				FAA03540EC9CC0DC8EEEDC973C1D8C5F /* Sources */,
+				E646DF537C291398F90F871F663A3BB3 /* Frameworks */,
+				4F9C1C76148846D59F48903DE554F6E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F38C9881C4947A9DA36E77DFE2E120E /* PBXTargetDependency */,
+			);
+			name = "Pods-YQHPhotoBrowserDemoUITests";
+			productName = "Pods-YQHPhotoBrowserDemoUITests";
+			productReference = FF6386CAC8F8D6AFAAD169BBDBA82CCA /* Pods_YQHPhotoBrowserDemoUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F94F454EF1FB46D7FF4890EF5134D2B6 /* Pods-YQHPhotoBrowserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 36D065415CFB9C6BFAB42B8AF84100C5 /* Build configuration list for PBXNativeTarget "Pods-YQHPhotoBrowserDemoTests" */;
+			buildPhases = (
+				20489FD58E474FE2B50B1C4AAAF02E21 /* Headers */,
+				84973C7FC2DDFED17BD568ACA67409CA /* Sources */,
+				143F5DFBEE68AE71FF9F13CFFDB14119 /* Frameworks */,
+				91E57BC91DE421E476F564FCBB6B8299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				330F9A200A32269A67BD10C5CD3492BB /* PBXTargetDependency */,
+			);
+			name = "Pods-YQHPhotoBrowserDemoTests";
+			productName = "Pods-YQHPhotoBrowserDemoTests";
+			productReference = 05CEFB918320AB535AAA0D219818D6EC /* Pods_YQHPhotoBrowserDemoTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 2A999E8F2EAD6D827100134113CEFEA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B62E4C615AAE9EA73FC6A7284283817C /* Pods-YQHPhotoBrowserDemo */,
+				F94F454EF1FB46D7FF4890EF5134D2B6 /* Pods-YQHPhotoBrowserDemoTests */,
+				E95FAFCFCA33BAE0C03703DCC0F32AA5 /* Pods-YQHPhotoBrowserDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F9C1C76148846D59F48903DE554F6E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91E57BC91DE421E476F564FCBB6B8299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4876024229A216E5C6F42A19097DEAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84973C7FC2DDFED17BD568ACA67409CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2830CD95061DE6B720A6904F2129C14A /* Pods-YQHPhotoBrowserDemoTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B2014A4A26F15F088CD2294C24C05423 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E065C666D263F77579514B955A1216D /* Pods-YQHPhotoBrowserDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA03540EC9CC0DC8EEEDC973C1D8C5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE789579B0C1778C82A61ECB4C2245AC /* Pods-YQHPhotoBrowserDemoUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		330F9A200A32269A67BD10C5CD3492BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YQHPhotoBrowserDemo";
+			target = B62E4C615AAE9EA73FC6A7284283817C /* Pods-YQHPhotoBrowserDemo */;
+			targetProxy = 15F944C7482C94372F2C7943DED6DC75 /* PBXContainerItemProxy */;
+		};
+		9F38C9881C4947A9DA36E77DFE2E120E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YQHPhotoBrowserDemo";
+			target = B62E4C615AAE9EA73FC6A7284283817C /* Pods-YQHPhotoBrowserDemo */;
+			targetProxy = 3BC928360793BBB7677A2E408093BAEA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0A236B5A450DD6807C9923FAA9EB9701 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE8F0E57BE5198694802C0635ACFC525 /* Pods-YQHPhotoBrowserDemoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoTests/Pods-YQHPhotoBrowserDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoTests/Pods-YQHPhotoBrowserDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1371DF68E9AFD049ADBECD8FD5685855 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBA81C108A9412C949DE4CEAE6AB912 /* Pods-YQHPhotoBrowserDemoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoTests/Pods-YQHPhotoBrowserDemoTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoTests/Pods-YQHPhotoBrowserDemoTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3E2EA733E4866B761183B6941B4E4DEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E936C01FDE8709852C4EB2AFBC3DA7D /* Pods-YQHPhotoBrowserDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemo/Pods-YQHPhotoBrowserDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemo/Pods-YQHPhotoBrowserDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		455CEFFE1B6C67B2DB0AF6014E0B1366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA406A830BF1DE5F4648BFC09A4A95B9 /* Pods-YQHPhotoBrowserDemoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests/Pods-YQHPhotoBrowserDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests/Pods-YQHPhotoBrowserDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4684C3E03B6E75EAD560BD0603E0798C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76E31520489F84B2DC09FE3E41ACF371 /* Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests/Pods-YQHPhotoBrowserDemoUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests/Pods-YQHPhotoBrowserDemoUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		8960DA9BCC5F34B8913693C7B1F4E791 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 347AFE5E5C50046F2C8D5EFE8EDE0505 /* Pods-YQHPhotoBrowserDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemo/Pods-YQHPhotoBrowserDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YQHPhotoBrowserDemo/Pods-YQHPhotoBrowserDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		36D065415CFB9C6BFAB42B8AF84100C5 /* Build configuration list for PBXNativeTarget "Pods-YQHPhotoBrowserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A236B5A450DD6807C9923FAA9EB9701 /* Debug */,
+				1371DF68E9AFD049ADBECD8FD5685855 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57E0607DECC3A1FADBA64E6EC9C19452 /* Build configuration list for PBXNativeTarget "Pods-YQHPhotoBrowserDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4684C3E03B6E75EAD560BD0603E0798C /* Debug */,
+				455CEFFE1B6C67B2DB0AF6014E0B1366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8AEEA369C90C5235F8CA6AB832FB40A2 /* Build configuration list for PBXNativeTarget "Pods-YQHPhotoBrowserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8960DA9BCC5F34B8913693C7B1F4E791 /* Debug */,
+				3E2EA733E4866B761183B6941B4E4DEF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -15,6 +15,9 @@
 		1D000481228D0AD300D17690 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D000480228D0AD300D17690 /* main.m */; };
 		1D00048B228D0AD300D17690 /* YQHPhotoBrowserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D00048A228D0AD300D17690 /* YQHPhotoBrowserDemoTests.m */; };
 		1D000496228D0AD300D17690 /* YQHPhotoBrowserDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D000495228D0AD300D17690 /* YQHPhotoBrowserDemoUITests.m */; };
+		54CC019D697A23D4E7623396 /* Pods_YQHPhotoBrowserDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F6CEAA0E9A4E788E1DD3B76 /* Pods_YQHPhotoBrowserDemo.framework */; };
+		744BC8295E76DB4716BD2AC6 /* Pods_YQHPhotoBrowserDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 328CBBAB9645C30EE6301079 /* Pods_YQHPhotoBrowserDemoUITests.framework */; };
+		D46116F1CD337E14D3B50B72 /* Pods_YQHPhotoBrowserDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C84C844C66F6D3825F63139 /* Pods_YQHPhotoBrowserDemoTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,15 @@
 		1D000491228D0AD300D17690 /* YQHPhotoBrowserDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YQHPhotoBrowserDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D000495228D0AD300D17690 /* YQHPhotoBrowserDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YQHPhotoBrowserDemoUITests.m; sourceTree = "<group>"; };
 		1D000497228D0AD300D17690 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		328CBBAB9645C30EE6301079 /* Pods_YQHPhotoBrowserDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQHPhotoBrowserDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		41814198009170613796D54D /* Pods-YQHPhotoBrowserDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQHPhotoBrowserDemo.debug.xcconfig"; path = "Target Support Files/Pods-YQHPhotoBrowserDemo/Pods-YQHPhotoBrowserDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		467E5FA2CBC47D06B6694C4A /* Pods-YQHPhotoBrowserDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQHPhotoBrowserDemoTests.release.xcconfig"; path = "Target Support Files/Pods-YQHPhotoBrowserDemoTests/Pods-YQHPhotoBrowserDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		61341A02458A0F53182A8809 /* Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests/Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8C84C844C66F6D3825F63139 /* Pods_YQHPhotoBrowserDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQHPhotoBrowserDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F6CEAA0E9A4E788E1DD3B76 /* Pods_YQHPhotoBrowserDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YQHPhotoBrowserDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B875DAB46E40BA5F279EEBCB /* Pods-YQHPhotoBrowserDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQHPhotoBrowserDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-YQHPhotoBrowserDemoUITests/Pods-YQHPhotoBrowserDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C1B717E923A87FAFB3C50025 /* Pods-YQHPhotoBrowserDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQHPhotoBrowserDemo.release.xcconfig"; path = "Target Support Files/Pods-YQHPhotoBrowserDemo/Pods-YQHPhotoBrowserDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F8C08B5378AF1827024D9261 /* Pods-YQHPhotoBrowserDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YQHPhotoBrowserDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-YQHPhotoBrowserDemoTests/Pods-YQHPhotoBrowserDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54CC019D697A23D4E7623396 /* Pods_YQHPhotoBrowserDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D46116F1CD337E14D3B50B72 /* Pods_YQHPhotoBrowserDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +86,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744BC8295E76DB4716BD2AC6 /* Pods_YQHPhotoBrowserDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CF903A1D436B7E434B7A1D8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F6CEAA0E9A4E788E1DD3B76 /* Pods_YQHPhotoBrowserDemo.framework */,
+				8C84C844C66F6D3825F63139 /* Pods_YQHPhotoBrowserDemoTests.framework */,
+				328CBBAB9645C30EE6301079 /* Pods_YQHPhotoBrowserDemoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1D000465228D0AD100D17690 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +110,8 @@
 				1D000489228D0AD300D17690 /* YQHPhotoBrowserDemoTests */,
 				1D000494228D0AD300D17690 /* YQHPhotoBrowserDemoUITests */,
 				1D00046F228D0AD100D17690 /* Products */,
+				A7880D4D6E7988EDE19D92D6 /* Pods */,
+				0CF903A1D436B7E434B7A1D8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +159,20 @@
 			path = YQHPhotoBrowserDemoUITests;
 			sourceTree = "<group>";
 		};
+		A7880D4D6E7988EDE19D92D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				41814198009170613796D54D /* Pods-YQHPhotoBrowserDemo.debug.xcconfig */,
+				C1B717E923A87FAFB3C50025 /* Pods-YQHPhotoBrowserDemo.release.xcconfig */,
+				F8C08B5378AF1827024D9261 /* Pods-YQHPhotoBrowserDemoTests.debug.xcconfig */,
+				467E5FA2CBC47D06B6694C4A /* Pods-YQHPhotoBrowserDemoTests.release.xcconfig */,
+				61341A02458A0F53182A8809 /* Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig */,
+				B875DAB46E40BA5F279EEBCB /* Pods-YQHPhotoBrowserDemoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +180,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D00049A228D0AD300D17690 /* Build configuration list for PBXNativeTarget "YQHPhotoBrowserDemo" */;
 			buildPhases = (
+				7D60D47AB2A1856A1F2BFB9F /* [CP] Check Pods Manifest.lock */,
 				1D00046A228D0AD100D17690 /* Sources */,
 				1D00046B228D0AD100D17690 /* Frameworks */,
 				1D00046C228D0AD100D17690 /* Resources */,
@@ -156,6 +198,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D00049D228D0AD300D17690 /* Build configuration list for PBXNativeTarget "YQHPhotoBrowserDemoTests" */;
 			buildPhases = (
+				2984EC2D03304596D554772C /* [CP] Check Pods Manifest.lock */,
 				1D000482228D0AD300D17690 /* Sources */,
 				1D000483228D0AD300D17690 /* Frameworks */,
 				1D000484228D0AD300D17690 /* Resources */,
@@ -174,6 +217,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D0004A0228D0AD300D17690 /* Build configuration list for PBXNativeTarget "YQHPhotoBrowserDemoUITests" */;
 			buildPhases = (
+				2849C0CC47F8FF9451ED3749 /* [CP] Check Pods Manifest.lock */,
 				1D00048D228D0AD300D17690 /* Sources */,
 				1D00048E228D0AD300D17690 /* Frameworks */,
 				1D00048F228D0AD300D17690 /* Resources */,
@@ -256,6 +300,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2849C0CC47F8FF9451ED3749 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQHPhotoBrowserDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2984EC2D03304596D554772C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQHPhotoBrowserDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D60D47AB2A1856A1F2BFB9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YQHPhotoBrowserDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1D00046A228D0AD100D17690 /* Sources */ = {
@@ -433,6 +546,7 @@
 		};
 		1D00049B228D0AD300D17690 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41814198009170613796D54D /* Pods-YQHPhotoBrowserDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +564,7 @@
 		};
 		1D00049C228D0AD300D17690 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1B717E923A87FAFB3C50025 /* Pods-YQHPhotoBrowserDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,6 +582,7 @@
 		};
 		1D00049E228D0AD300D17690 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8C08B5378AF1827024D9261 /* Pods-YQHPhotoBrowserDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -486,6 +602,7 @@
 		};
 		1D00049F228D0AD300D17690 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 467E5FA2CBC47D06B6694C4A /* Pods-YQHPhotoBrowserDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -505,6 +622,7 @@
 		};
 		1D0004A1228D0AD300D17690 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61341A02458A0F53182A8809 /* Pods-YQHPhotoBrowserDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHDQH7VJRK;
@@ -523,6 +641,7 @@
 		};
 		1D0004A2228D0AD300D17690 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B875DAB46E40BA5F279EEBCB /* Pods-YQHPhotoBrowserDemoUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WHDQH7VJRK;
